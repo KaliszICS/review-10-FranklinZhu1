@@ -1,3 +1,4 @@
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.*;
@@ -115,7 +116,7 @@ void squareTest2() {
 }
     catch(Exception e) {
         fail("Something weird happened");
-}
+    }
 }
 @Test
 @DisplayName("")
